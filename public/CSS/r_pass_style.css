@@ -1,0 +1,509 @@
+/*User Login Screen Body*/
+.body-bg-color{
+	background-color: #f9f9f9;
+}
+
+.body-height{
+	height: 100vh;
+
+}
+
+.body-position{
+	position: relative;
+}
+
+.sea-green-img{
+	position: absolute; 
+	bottom: 0px; 
+	right: 0px;
+	height: 300px; 
+	width: 700px;	
+}
+
+.usr-profile-backgr{
+	padding-left: 190px;
+}
+
+.profile-back-img{
+	height: 205px;
+	width: 200px;
+	position: relative;
+	bottom: 12px;
+}
+
+.profile-img{
+	height: 181px;
+	width: 177px; 
+	position: relative;
+	left: -195px;
+	bottom: 15px;
+}
+
+.centered-ele{
+	text-align: center;
+}
+
+.p-top-text{
+	color: #007991; 
+	font-family: 'Roboto', 'sans-serif'; 
+	font-weight: 500; 
+	font-size: 29px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.p-bot-text{
+	padding: 0px; 
+	margin:0px;
+	font-size: 13px;
+	font-family: 'Roboto', 'sans-serif'; 
+	font-weight: 400; 
+}
+
+.form-left-padding{
+	padding-left: 30%;
+}
+
+.lock-img{
+	height: 50px;
+	width: 38px;
+	position:  relative;
+	right: 75px;
+	bottom: 18px;
+}
+
+.eye-img{
+	height: 19px;
+	width: 19px;
+	position: relative;
+	left: 70px;
+}
+
+.pw-text{
+	color: #037a92;
+	font-size: 22px;
+	font-family: 'Arial';
+	position: relative;
+	right: 50px;
+	top: 10px;
+}
+
+.p-hold{
+	position: relative;
+	right: 22px;
+	border:none; 
+	background-color: #f3f3f3;
+}
+
+.form-pos{
+	position: relative;
+	right: 35px;
+}
+
+
+.in-line-block{
+	display: inline-block;
+}
+
+
+.middle-row{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.bg-form-color-top{
+	background-color: #f3f3f3;
+}
+
+.bg-form-top-pos{
+	position:relative;
+}
+
+.bg-color-white{
+	background-color: #fff;
+}
+
+.card-body-pad{
+	padding: 0px;
+}
+
+.card-width{
+	width: 520px;
+}
+
+.form-lower-cont-pad{
+	padding-top: 65px;
+	padding-bottom: 60px;
+}
+
+.form-btn{
+	position: absolute;
+	top: 130px; 
+	right: 32px; 
+	padding: 7px 35px;
+	background-color: #007991;
+}
+
+.form-p-sty{
+	padding: 0px; 
+	margin: 0px;
+	font-size: 22px;
+	font-weight: 700;
+	color: #d9eaed;
+}
+
+hr.hr-style{
+  	margin: 0px;
+  	padding: 0px; 
+	border-top: 3px solid #007991;
+	position: relative;
+	bottom: 0px;
+	left: 80px;
+	width: 68%;
+}
+
+.modal-mar-top{
+	margin-top: 10%;
+}
+
+.modal-img-sty{
+	height: 90px;
+	width: 90px;
+}
+
+/*Responsiveness*/ 
+/*Large Screen Size*/
+@media only screen and (max-width: 1000px) {
+	.form-left-padding{
+	padding-left: 22%;
+	}
+}
+
+
+/*Ipad viewport = 769*/ 
+@media only screen and (max-width: 769px) {
+	.form-left-padding{
+	padding-left: 16%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.form-left-padding{
+	padding-left: 10%;
+	}
+}
+
+
+/*Medium screen viewport*/
+@media only screen and (max-width: 600px) {
+	.profile-img{
+	height: 181px;
+	width: 177px; /*incremented in multiples of three*/
+	position: relative;
+	bottom: 15px;
+	top: -200px;
+	left: 0px;
+	}
+
+	.usr-profile-backgr{
+	padding-left: 31%;
+	}
+
+	.form-left-padding{
+	/*padding-left: 400px;*/
+	padding-left: 5%;
+	}
+
+}
+
+/*Iphone 6/7/8/Plus viewport = 415*/
+@media only screen and (max-width: 415px) {
+	.profile-img{
+	height: 181px;
+	width: 177px; /*incremented in multiples of three*/
+	position: relative;
+	bottom: 15px;
+	top: -200px;
+	left: 0px;
+	}
+
+	.usr-profile-backgr{
+	padding-left: 5%;
+	}
+
+	.mob-view-form{
+		position: relative; 
+		top: -180px;
+	}
+
+	/*All form Contents*/
+	.middle-row{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	.mob-view-form-pos{
+		position: relative; 
+		bottom: 140px;
+	}
+
+	.card-width{
+		width: 350px;
+	}
+
+	.form-pos{
+		position: relative;
+		right: -20px;
+	}
+
+	.lock-img{
+		height: 46px;
+		width: 34px;
+		position:  relative;
+		right: 10px;
+		bottom: 18px;
+	}
+
+	.pw-text{
+		color: #037a92;
+		font-size: 18px;
+		font-family: 'Arial';
+		position: relative;
+		right: 60px;
+		top: 15px;
+	}
+
+	.p-hold{
+		position: relative;
+		right: 20px;
+		border:none; 
+		background-color: #f3f3f3;
+	}
+
+	.eye-img{
+		height: 17px;
+		width: 17px;
+		position: relative;
+		left: 1px;
+	}
+
+	.form-btn{
+		position: absolute;
+		top: 130px; 
+		right: 52px; 
+		padding: 7px 65px;
+		background-color: #007991;
+	}
+
+	hr.hr-style{
+	  	margin: 0px;
+	  	padding: 0px; 
+		border-top: 3px solid #007991;
+		position: relative;
+		bottom: 0px;
+		left: 43px;
+		width: 75%;
+	}
+	.sea-green-img{
+		position: absolute; 
+		bottom: 0px; 
+		right: 0px; 
+		height: 160px; 
+		width: 400px;	
+	}
+
+}
+
+
+/*Iphone 6/7/8/X/XS   viewport = 376*/ 
+@media only screen and (max-width: 376px) {
+	.profile-img{
+	height: 181px;
+	width: 177px; /*incremented in multiples of three*/
+	position: relative;
+	bottom: 15px;
+	top: -200px;
+	left: 0px;
+	}
+
+	/*All form Contents*/
+	.middle-row{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	.form-left-padding{
+		/*padding-left: 400px;*/
+		padding-left: 2%;
+	}
+	.mob-view-form-pos{
+		position: relative; 
+		bottom: 140px;
+	}
+
+	.card-width{
+		width: 330px;
+	}
+
+	.form-pos{
+		position: relative;
+		right: -35px;
+	}
+
+	.lock-img{
+		height: 46px;
+		width: 34px;
+		position:  relative;
+		right: -5px;
+		bottom: 10px;
+	}
+
+	.pw-text{
+		color: #037a92;
+		font-size: 18px;
+		font-family: 'Arial';
+		position: relative;
+		right: 60px;
+		top: 20px;
+	}
+
+	.p-hold{
+		top: 5px;
+		position: relative;
+		right: 20px;
+		border:none; 
+		background-color: #f3f3f3;
+	}
+
+	.eye-img{
+		height: 17px;
+		width: 17px;
+		position: relative;
+		left: 1px;
+	}
+
+	.form-btn{
+		position: absolute;
+		top: 130px; 
+		right: 64px; 
+		padding: 7px 65px;
+		background-color: #007991;
+	}
+
+	hr.hr-style{
+	  	margin: 0px;
+	  	padding: 0px; 
+		border-top: 3px solid #007991;
+		position: relative;
+		bottom: 0px;
+		left: 40px;
+		width: 75%;
+	}
+	.sea-green-img{
+		position: absolute; 
+		bottom: 0px; 
+		right: 0px; 
+		height: 160px; 
+		width: 360px;	
+	}
+}
+
+/*Galaxy Mobile Phone  viewport = 361*/
+@media only screen and (max-width: 361px) {
+	.profile-img{
+	height: 181px;
+	width: 177px; /*incremented in multiples of three*/
+	position: relative;
+	bottom: 15px;
+	top: -200px;
+	left: 0px;
+	}
+
+	/*All form Contents*/
+	.middle-row{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	.form-left-padding{
+		/*padding-left: 400px;*/
+		padding-left: 2%;
+	}
+	.mob-view-form-pos{
+		position: relative; 
+		bottom: 140px;
+	}
+
+	.card-width{
+		width: 320px;
+	}
+
+	.form-pos{
+		position: relative;
+		right: -35px;
+	}
+
+	.lock-img{
+		height: 46px;
+		width: 34px;
+		position:  relative;
+		right: -5px;
+		bottom: 10px;
+	}
+
+	.pw-text{
+		color: #037a92;
+		font-size: 18px;
+		font-family: 'Arial';
+		position: relative;
+		right: 60px;
+		top: 20px;
+	}
+
+	.p-hold{
+		top: 5px;
+		position: relative;
+		right: 20px;
+		border:none; 
+		background-color: #f3f3f3;
+	}
+
+	.eye-img{
+		height: 17px;
+		width: 17px;
+		position: relative;
+		left: 1px;
+	}
+
+	.form-btn{
+		position: absolute;
+		top: 130px; 
+		right: 64px; 
+		padding: 7px 65px;
+		background-color: #007991;
+	}
+
+	hr.hr-style{
+	  	margin: 0px;
+	  	padding: 0px; 
+		border-top: 3px solid #007991;
+		position: relative;
+		bottom: 0px;
+		left: 40px;
+		width: 75%;
+	}
+	.sea-green-img{
+		position: absolute; 
+		bottom: 0px; 
+		right: 0px;
+		height: 160px; 
+		width: 360px;	
+	}
+
+}
